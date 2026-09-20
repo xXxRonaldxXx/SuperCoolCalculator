@@ -1,0 +1,73 @@
+name: Bug report
+description: Something in SCC does not work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. The more of this you fill in, the faster it gets fixed.
+        **`logs/scc.log` is the most useful file** – SCC writes its own log there.
+
+  - type: input
+    id: version
+    attributes:
+      label: SCC version
+      description: The file name of the jar, e.g. scc-1.1.0.jar
+      placeholder: scc-1.1.0.jar
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft and NeoForge version
+      placeholder: "1.21.1 / NeoForge 21.1.x"
+    validations:
+      required: true
+
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack
+      description: Name and version, or "none" if you built the instance yourself.
+      placeholder: All the Mods 10 – 4.7
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+      placeholder: |
+        1. Ordered 64 iron plates in the terminal
+        2. Expected: the order runs
+        3. Instead: "no machine on the network can run this recipe"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: logs/scc.log
+      description: |
+        Paste the interesting part, or attach the file by dragging it into this field.
+        Big files are better on paste.ee, gist.github.com or mclo.gs.
+      render: text
+
+  - type: textarea
+    id: crash
+    attributes:
+      label: Crash report or latest.log
+      description: Only if the game crashed or froze.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I am on the newest SCC version for my Minecraft version
+          required: true
+        - label: I searched the existing issues
+          required: true
