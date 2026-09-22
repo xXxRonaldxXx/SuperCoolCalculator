@@ -12,11 +12,13 @@ Six star tiers – Basic, Red Dwarf, Yellow Star, Blue Giant, Neutron Star, Sing
 
 Recipes are read from JEI or EMI when one of them is installed, so machine recipes from other mods are understood as well. Without a recipe viewer the mod falls back to the vanilla recipe system.
 
+The mod is available in English, Brazilian Portuguese, Simplified Chinese, Russian and Spanish (the four translations from 1.1.1 on).
+
 ## Before you report
 
 Most questions are answered by two things:
 
-1. **The in-game guide.** Craft the SCC Guide, or press the guide button in any SCC window.
+1. **The in-game manual.** Craft the SCC Manual, or press the manual button in any SCC window.
 2. **The settings (F7).** Animations, sky objects, light mode, flat blocks and every sound can be switched there.
 
 A few answers up front:
@@ -38,8 +40,8 @@ Screenshots of the window in question help a lot.
 
 ## Links
 
-- CurseForge: *(link follows with the 1.1.0 release)*
-- Changelog: see the CurseForge files page
+- CurseForge: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator
+- Changelog: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator/files
 
 ## License
 

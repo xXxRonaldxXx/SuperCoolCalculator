@@ -1,9 +1,9 @@
 ﻿blank_issues_enabled: false
 contact_links:
   - name: Download and comments
-    url: https://www.curseforge.com/minecraft/mc-mods/
+    url: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator
     about: The mod itself, its files and the comment section live on CurseForge.
-  - name: The in-game guide
+  - name: The in-game manual
     url: https://github.com/xXxRonaldxXx/SuperCoolCalculator#before-you-report
-    about: Craft the SCC Guide or press F7 for the settings - most questions are answered there.
+    about: Craft the SCC Manual or press F7 for the settings - most questions are answered there.
 
