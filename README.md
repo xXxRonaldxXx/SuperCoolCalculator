@@ -16,10 +16,11 @@ The mod is available in English, Brazilian Portuguese, Simplified Chinese, Russi
 
 ## Before you report
 
-Most questions are answered by two things:
+Most questions are answered by these:
 
 1. **The in-game manual.** Craft the SCC Manual, or press the manual button in any SCC window.
 2. **The settings (F7).** Animations, sky objects, light mode, flat blocks and every sound can be switched there.
+3. **The commands.** Every `/scc` command with examples and every server setting: **[Command reference](docs/COMMANDS.md)** (🇧🇷 [em português](docs/COMMANDS.pt-BR.md)). In game, `/scc help` shows the same list.
 
 A few answers up front:
 
@@ -40,6 +41,7 @@ Screenshots of the window in question help a lot.
 
 ## Links
 
+- Commands and server settings: [docs/COMMANDS.md](docs/COMMANDS.md) · [Português](docs/COMMANDS.pt-BR.md)
 - CurseForge: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator
 - Changelog: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator/files
 
