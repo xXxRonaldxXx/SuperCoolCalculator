@@ -286,6 +286,7 @@ Sets the time in every world to just before sunset of the next meteor shower nig
 | `wormholeRemoteCooldown` | `30` | 0 – 3,600 | Wormhole Remote: seconds before a player may open the next pocket rift. |
 | `wormholeRemoteOpen` | `10` | 2 – 120 | Wormhole Remote: seconds a pocket rift stays open. |
 | `wormholeRemoteShared` | `on` | on / off | Wormhole Remote: may other players walk through someone else's pocket rift? |
+| `wormholePreview` | `on` | on / off | Wormhole Gate/Remote: send players a live picture of the destination inside the portal? |
 | `ae2Provider` | `on` | on / off | Does the Network Antenna offer what SCC can build to an AE2 network it touches, so AE2 jobs can use it? |
 | `meteors` | `on` | on / off | Do meteors fall at night (craters, or caught by a Sky Harvester)? |
 | `meteorChance` | `12` | 0 – 100 | Chance per player and night that a meteor falls nearby, in percent. |
