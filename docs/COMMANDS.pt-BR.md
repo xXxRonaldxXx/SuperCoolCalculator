@@ -287,6 +287,7 @@ Ajusta o horário em todos os mundos para pouco antes do pôr do sol da próxima
 | `wormholeRemoteOpen` | `10` | 2 – 120 | Controle de Buraco de Minhoca: segundos que uma fenda de bolso fica aberta. |
 | `wormholeRemoteShared` | `on` | on / off | Controle de Buraco de Minhoca: outros jogadores podem passar pela fenda de bolso de alguém? |
 | `wormholePreview` | `on` | on / off | Portal/Controle de Buraco de Minhoca: enviar aos jogadores uma imagem ao vivo do destino dentro do portal? |
+| `stockTooltips` | `on` | on / off | Dicas dos itens: mostrar aos jogadores com um Terminal Sem Fio vinculado quanto do item a rede deles guarda? |
 | `ae2Provider` | `on` | on / off | A Antena de Rede oferece o que o SCC sabe fabricar a uma rede AE2 que ela toca, para que trabalhos do AE2 possam usar? |
 | `meteors` | `on` | on / off | Meteoros caem à noite (crateras, ou capturados por uma Colheitadeira Celeste)? |
 | `meteorChance` | `12` | 0 – 100 | Chance por jogador e por noite de um meteoro cair por perto, em porcentagem. |
