@@ -18,6 +18,7 @@ _Válido para o SCC 1.4.1 ou mais novo (Minecraft 1.21.1 e 26.1.2). Gerado por `
 | [`/scc guide [chapter] [heading]`](#scc-guide) | Abre o Manual do SCC, opcionalmente num capítulo. | Todos |
 | [`/scc sky`](#scc-sky) | Mostra a conjunção celeste atual e a próxima. | Todos |
 | [`/scc sky shower`](#scc-shower) | Informa quando vem a próxima noite de chuva de meteoros. | Todos |
+| [`/scc order <item> [amount]`](#scc-order) | Pede um item da sua rede pelo chat. | Todos |
 | [`/scc trust <player> [rights]`](#scc-trust) | Dá direitos a um jogador na sua rede. | Dono da rede |
 | [`/scc untrust <player>`](#scc-untrust) | Remove todos os direitos de um jogador na sua rede. | Dono da rede |
 | [`/scc rights`](#scc-rights) | Mostra o dono da rede e quem tem quais direitos. | Dono da rede |
@@ -71,6 +72,15 @@ Mostra se há uma chuva de meteoros agora ou quanto falta para a próxima. As ch
 
 - **Sintaxe:** `/scc sky shower`
 - **Exemplo:** `/scc sky shower`
+- **Quem:** todos
+
+<a id="scc-order"></a>
+### /scc order
+
+Precisa de um Terminal Sem Fio vinculado no inventário ou num slot do Curios, no alcance da antena, e do direito "pedir" nessa rede. Planeja como a janela de pedido: se faltarem ingredientes, o chat lista quais; senão o pedido começa e o chat mostra o tempo estimado. Tab completa os IDs de item, primeiro os itens da sua rede. Quantidade de 1 a 9999, padrão 1.
+
+- **Sintaxe:** `/scc order <item> [amount]`
+- **Exemplo:** `/scc order minecraft:iron_ingot 64`
 - **Quem:** todos
 
 <a id="scc-trust"></a>
@@ -288,6 +298,7 @@ Ajusta o horário em todos os mundos para pouco antes do pôr do sol da próxima
 | `wormholeRemoteShared` | `on` | on / off | Controle de Buraco de Minhoca: outros jogadores podem passar pela fenda de bolso de alguém? |
 | `wormholePreview` | `on` | on / off | Portal/Controle de Buraco de Minhoca: enviar aos jogadores uma imagem ao vivo do destino dentro do portal? |
 | `stockTooltips` | `on` | on / off | Dicas dos itens: mostrar aos jogadores com um Terminal Sem Fio vinculado quanto do item a rede deles guarda? |
+| `stockHistory` | `on` | on / off | Dicas do terminal: registrar um histórico de estoque de 24 horas por item (só itens que mudam ou são consultados)? |
 | `ae2Provider` | `on` | on / off | A Antena de Rede oferece o que o SCC sabe fabricar a uma rede AE2 que ela toca, para que trabalhos do AE2 possam usar? |
 | `meteors` | `on` | on / off | Meteoros caem à noite (crateras, ou capturados por uma Colheitadeira Celeste)? |
 | `meteorChance` | `12` | 0 – 100 | Chance por jogador e por noite de um meteoro cair por perto, em porcentagem. |
