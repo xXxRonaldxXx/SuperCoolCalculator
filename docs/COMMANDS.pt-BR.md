@@ -279,6 +279,7 @@ Ajusta o horário em todos os mundos para pouco antes do pôr do sol da próxima
 | `quarryFeBlueGiant` | `1,500` | 0 – 10,000,000 | Pedreira Estelar (Gigante Azul): FE por bloco antes de dureza e cartões. |
 | `quarryFeNeutronStar` | `2,000` | 0 – 10,000,000 | Pedreira Estelar (Estrela de Nêutrons): FE por bloco antes de dureza e cartões. |
 | `quarryFeSingularity` | `2,500` | 0 – 10,000,000 | Pedreira Estelar (Singularidade): FE por bloco antes de dureza e cartões. |
+| `quarryLoadsWorkChunk` | `on` | on / off | Star Quarry: ela mantém carregado o chunk que está minerando (no máx. 2 chunks, nunca o próprio)? Desligado: minera só chunks carregados e volta aos outros depois. |
 | `harvestSpeed` | `100` | 1 – 10,000 | Velocidade da Colheitadeira Celeste em porcentagem (100 = normal). |
 | `forgeEnergy` | `100` | 0 – 10,000 | Custo de energia da Forja Estelar em porcentagem (100 = normal, 0 = grátis). |
 | `harvestEnergy` | `100` | 0 – 10,000 | Custo de energia da Colheitadeira Celeste em porcentagem (100 = normal, 0 = grátis). |
@@ -287,6 +288,7 @@ Ajusta o horário em todos os mundos para pouco antes do pôr do sol da próxima
 | `conjunctions` | `on` | on / off | Conjunções celestes dão à Colheitadeira Celeste o dobro dos dois objetos? |
 | `wormholeCap` | `16,384` | 64 – 1,000,000 | Máximo de itens que uma Calculadora de Transferência (Singularidade) move por ciclo. |
 | `instantCrafts` | `256` | 0 – 100,000 | Fabricações de uma etapa que um fabricador Singularidade conclui no mesmo tick em que chegam. |
+| `parallelSteps` | `4` | 0 – 16 | Passos independentes de uma tarefa que rodam ao mesmo tempo como tarefas próprias (0 = um passo após o outro). |
 | `wormholeBase` | `1,000` | 0 – 100,000,000 | Portal de Buraco de Minhoca: FE que cada salto custa, por mais curto que seja. |
 | `wormholePerBlock` | `10` | 0 – 1,000,000 | Portal de Buraco de Minhoca: FE por bloco de distância dentro de uma dimensão. |
 | `wormholeDimension` | `50,000` | 0 – 1,000,000,000 | Portal de Buraco de Minhoca: FE para um salto a outra dimensão (substitui base e distância). |
@@ -307,6 +309,8 @@ Ajusta o horário em todos os mundos para pouco antes do pôr do sol da próxima
 | `meteorShowerMeteors` | `4` | 0 – 20 | Chuvas de meteoros: meteoros de verdade por jogador numa noite de chuva (0 = só estrelas cadentes no céu). |
 | `storageWarnings` | `on` | on / off | Avisar jogadores com acesso ao terminal quando o armazenamento da rede atingir storageWarnPercent e quando estiver cheio? |
 | `storageWarnPercent` | `90` | 50 – 100 | Aviso de armazenamento: a partir de quantos por cento cheio (50-100). Avisa de novo depois que o armazenamento cair 5 pontos abaixo. |
+| `orderTimeout` | `0` | 0 – 604,800 | Autofabricação: segundos que um pedido em espera pode ficar parado antes de desistir, para jogadores que escolheram Padrão no F7 e pedidos sem jogador (0 = embutido: 1 min, 6 min enquanto uma máquina ainda trabalha). |
+| `orderTimeoutMax` | `0` | 0 – 604,800 | Autofabricação: a espera mais longa que jogadores (F7) e Calculadoras de Processamento podem escolher, em segundos (0 = sem limite, Nunca permitido). |
 | `littleStarLightBlocks` | `off` | on / off | A Estrelinha coloca blocos de luz invisíveis em lugares escuros (como até a 1.4.0)? Desligado = só brilha no cliente. |
 | `furnaceXp` | `on` | on / off | Uma Calculadora de Processamento envia a experiência de uma fornalha para a rede como experiência líquida? |
 | `cradleSpeed` | `100` | 1 – 100,000,000 | Berço Estelar: velocidade da vida das estrelas, em porcentagem (100 = normal). |

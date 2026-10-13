@@ -279,6 +279,7 @@ Sets the time in every world to just before sunset of the next meteor shower nig
 | `quarryFeBlueGiant` | `1,500` | 0 – 10,000,000 | Star Quarry (Blue Giant): FE per block before hardness and cards. |
 | `quarryFeNeutronStar` | `2,000` | 0 – 10,000,000 | Star Quarry (Neutron Star): FE per block before hardness and cards. |
 | `quarryFeSingularity` | `2,500` | 0 – 10,000,000 | Star Quarry (Singularity): FE per block before hardness and cards. |
+| `quarryLoadsWorkChunk` | `on` | on / off | Star Quarry: does it keep the chunk it is mining loaded (max. 2 chunks, never its own)? Off: it only mines loaded chunks and comes back to the others later. |
 | `harvestSpeed` | `100` | 1 – 10,000 | Sky Harvester speed in percent (100 = normal). |
 | `forgeEnergy` | `100` | 0 – 10,000 | Star Forge power cost in percent (100 = normal, 0 = free). |
 | `harvestEnergy` | `100` | 0 – 10,000 | Sky Harvester power cost in percent (100 = normal, 0 = free). |
@@ -287,6 +288,7 @@ Sets the time in every world to just before sunset of the next meteor shower nig
 | `conjunctions` | `on` | on / off | Do sky conjunctions give the Sky Harvester double yield of the two objects? |
 | `wormholeCap` | `16,384` | 64 – 1,000,000 | Most items a Singularity Transfer Calculator moves per run. |
 | `instantCrafts` | `256` | 0 – 100,000 | Single-step crafts a Singularity crafter finishes in the tick they arrive. |
+| `parallelSteps` | `4` | 0 – 16 | Independent steps of one order that run at the same time as their own orders (0 = one step after another). |
 | `wormholeBase` | `1,000` | 0 – 100,000,000 | Wormhole Gate: FE every jump costs, however short. |
 | `wormholePerBlock` | `10` | 0 – 1,000,000 | Wormhole Gate: FE per block of distance within one dimension. |
 | `wormholeDimension` | `50,000` | 0 – 1,000,000,000 | Wormhole Gate: FE for a jump into another dimension (replaces base and distance). |
@@ -307,6 +309,8 @@ Sets the time in every world to just before sunset of the next meteor shower nig
 | `meteorShowerMeteors` | `4` | 0 – 20 | Meteor showers: real meteors per player in a shower night (0 = only shooting stars in the sky). |
 | `storageWarnings` | `on` | on / off | Warn players with terminal access when a network's storage reaches storageWarnPercent and when it is full? |
 | `storageWarnPercent` | `90` | 50 – 100 | Storage warning: from how many percent full (50-100). It warns again after the storage drops 5 points below. |
+| `orderTimeout` | `0` | 0 – 604,800 | Autocrafting: seconds a waiting order may stand still before it gives up, for players who chose Default in F7 and orders without a player (0 = built-in: 1 min, 6 min while a machine still works). |
+| `orderTimeoutMax` | `0` | 0 – 604,800 | Autocrafting: the longest wait players (F7) and Processing Calculators may choose, in seconds (0 = no limit, Never allowed). |
 | `littleStarLightBlocks` | `off` | on / off | Does the Little Star place invisible light blocks in dark places (as up to 1.4.0)? Off = it only glows on the client. |
 | `furnaceXp` | `on` | on / off | Does a Processing Calculator send a furnace's experience into the network as liquid experience? |
 | `cradleSpeed` | `100` | 1 – 100,000,000 | Stellar Cradle: how fast star lifetimes run, in percent (100 = normal). |
