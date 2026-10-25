@@ -1,3 +1,5 @@
+![SCC – Super Cool Calculator](media/banner.png)
+
 # SCC – Super Cool Calculator
 
 A Minecraft mod for **1.21.1 / NeoForge**. This repository is the **bug tracker** for it – the mod itself is published on CurseForge.
