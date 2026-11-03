@@ -2,7 +2,7 @@
 
 # SCC – Super Cool Calculator
 
-A Minecraft mod for **1.21.1 / NeoForge**. This repository is the **bug tracker** for it – the mod itself is published on CurseForge.
+A Minecraft mod for **NeoForge, Minecraft 1.21.1 and 26.1.2**. This repository is the **bug tracker** for it – the mod itself is published on CurseForge.
 
 ➡️ **[Report a bug or ask for a feature](../../issues/new/choose)**
 
@@ -14,7 +14,7 @@ Six star tiers – Basic, Red Dwarf, Yellow Star, Blue Giant, Neutron Star, Sing
 
 Recipes are read from JEI or EMI when one of them is installed, so machine recipes from other mods are understood as well. Without a recipe viewer the mod falls back to the vanilla recipe system.
 
-The mod is available in English, Brazilian Portuguese, Simplified Chinese, Russian and Spanish (the four translations from 1.1.1 on).
+The mod is available in English, Brazilian Portuguese, Simplified Chinese, Russian and Spanish.
 
 ## Before you report
 
@@ -46,6 +46,7 @@ Screenshots of the window in question help a lot.
 - Commands and server settings: [docs/COMMANDS.md](docs/COMMANDS.md) · [Português](docs/COMMANDS.pt-BR.md)
 - CurseForge: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator
 - Changelog: https://www.curseforge.com/minecraft/mc-mods/scc-super-cool-calculator/files
+- Let's Play (German): https://youtu.be/L4reC_0rVU4
 
 ## License
 
